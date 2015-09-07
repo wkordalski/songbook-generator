@@ -1,11 +1,13 @@
 #include <QApplication>
 #include <QPushButton>
+#include "model.hpp"
+#include "window.hpp"
 
 int main(int argc, char *argv[])
 {
     QApplication app(argc, argv);
-    QPushButton button ("Sample button in learning Qt");
-    button.setToolTip("This program works. Use it to learn more.");
-    button.show();
+    Cantionale::Model model(nullptr);
+    Cantionale::Window wnd(model);
+    wnd.show();
     return app.exec();
 }

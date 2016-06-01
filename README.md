@@ -2,6 +2,8 @@
 
 Song manager and songbook generator.
 
+Not developed. For working command-line tool see: [Cantionale repository](https://github.com/wojtex/cantionale)
+
 
 # Song format
 
